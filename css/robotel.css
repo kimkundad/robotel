@@ -226,4 +226,21 @@ h2.headline span {
 .theme-login-social-login-google:hover {
     background: #c53024;
 }
-
+@media screen and (max-width: 767px) {
+    .login-g{
+        box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%); 
+        padding:30px 20px; 
+        background: #fff;
+    }
+}
+.login-g{
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%); 
+    padding:30px 60px; 
+    background: #fff;
+}
+.colorb{
+    color:#00336E;
+}
+.list-4 li, .list-3 li, .list-2 li, .list-1 li {
+    font-family: 'Prompt', sans-serif;
+}
