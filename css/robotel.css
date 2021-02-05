@@ -145,3 +145,84 @@ h2.headline span {
 .sidebar-textbox ul.contact-details li a {
     color: #00336E;
 }
+#footer {
+    font-size: 14px;
+}
+#footer p{
+    font-size: 14px;
+}
+.regis{
+    color: #00336E;
+}
+.theme-login-social-separator {
+    margin-bottom: 20px;
+    position: relative;
+}
+.theme-login-social-separator:before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.17;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=17)";
+    filter: alpha(opacity=17);
+}
+.theme-login-social-separator > p {
+    display: table;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 0 7px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.theme-login-social-login-facebook {
+    background: #3b5998;
+}
+.theme-login-social-login-facebook, .theme-login-social-login-google {
+    display: block;
+    padding: 10px 12px;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 3px;
+    text-decoration: none !important;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.theme-login-social-login-facebook:hover, .theme-login-social-login-google:hover {
+
+    color: #fff;
+
+}
+.theme-login-social-login-facebook:hover {
+    background: #324c81;
+}
+.theme-login-social-login-facebook .fa, .theme-login-social-login-google .fa {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    font-size: 30px;
+    text-shadow: 2px 3px 5px rgb(0 0 0 / 15%);
+}
+.theme-login-social-login-facebook span, .theme-login-social-login-google span {
+    display: table;
+    line-height: 15px;
+    font-size: 12px;
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+}
+.theme-login-social-login-google {
+    background: #db4437;
+}
+.theme-login-social-login-google:hover {
+    background: #c53024;
+}
