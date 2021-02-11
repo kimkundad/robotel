@@ -32,6 +32,14 @@
 
 }
 
+body p {
+    font-size: 18px;
+    line-height: 29px;
+}
+body {
+    color: #687178;
+    font-size: 18px;
+}
 p, a ,span, h4 {
     font-family: 'rsuregular', sans-serif;
 
@@ -40,7 +48,8 @@ p, a ,span, h4 {
     font-family: 'rsubold', sans-serif;
 }
 .headline span {
-    font-size: 16px;
+    font-size: 18px;
+    color: #687178;
 }
 #header {
     font-size: 17px;
