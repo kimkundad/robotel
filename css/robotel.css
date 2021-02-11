@@ -255,7 +255,7 @@ h2.headline span {
 .theme-login-social-login-facebook span, .theme-login-social-login-google span {
     display: table;
     line-height: 15px;
-    font-size: 12px;
+    font-size: 15px;
     opacity: 0.9;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     filter: alpha(opacity=90);
@@ -356,4 +356,7 @@ h1, h2, h3, h4, h5, h6 {
     max-height:140px;
     margin-top:15px;
     margin-bottom:15px;
+}
+.txt_blue{
+    color:#084BA8;
 }
