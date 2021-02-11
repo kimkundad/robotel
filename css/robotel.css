@@ -42,6 +42,12 @@ p, a ,span, h4 {
 .headline span {
     font-size: 16px;
 }
+#header {
+    font-size: 17px;
+}
+button.button, input[type="button"], input[type="submit"], a.button.border, a.button {
+    font-size: 17px;
+}
 #titlebar h1, #titlebar h2 {
     font-family: 'rsubold';
 }
@@ -180,10 +186,10 @@ h2.headline span {
     color: #00336E;
 }
 #footer {
-    font-size: 14px;
+    font-size: 16px;
 }
 #footer p{
-    font-size: 14px;
+    font-size: 16px;
 }
 .regis{
     color: #00336E;
