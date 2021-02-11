@@ -1,45 +1,79 @@
+
+@font-face {
+    font-family: 'rsubold';
+    src: url('../rangsit/rsu_bold-webfont.woff2') format('woff2'),
+         url('../rangsit/rsu_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rsulight';
+    src: url('../rangsit/rsu_light-webfont.woff2') format('woff2'),
+         url('../rangsit/rsu_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rsuregular';
+    src: url('../rangsit/rsu_regular-webfont.woff2') format('woff2'),
+         url('../rangsit/rsu_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 p, a ,span, h4 {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 
 }
 .headline.centered {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsubold', sans-serif;
 }
 .headline span {
     font-size: 16px;
 }
 #titlebar h1, #titlebar h2 {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsubold';
 }
 .rev_slider{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 .post-content h3{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsubold';
 }
 .post-meta li {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 blockquote {
     font-size: 15px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 h2.headline{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 .widget h3{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsubold', sans-serif;
 }
 .icon-box-2 h3 {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsubold', sans-serif;
 }
 .listing-item-content h3 {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsubold', sans-serif;
 }
 .blog-compact-item-content h3 {
     color: #fff;
     font-size: 18px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 .comment-by-listing a:hover, .browse-all-user-listings a i, .hosted-by-title h4 a:hover, .style-2 .trigger.active a, .style-2 .ui-accordion .ui-accordion-header-active:hover, .style-2 .ui-accordion .ui-accordion-header-active, #posts-nav li a:hover, .plan.featured .listing-badge, .post-content h3 a:hover, .add-review-photos i, .show-more-button i, .listing-details-sidebar li a, .star-rating .rating-counter a:hover, .more-search-options-trigger:after, .header-widget .sign-in:hover, #footer a, #footer .footer-links li a:hover, #navigation.style-1 .current, #navigation.style-1 ul li:hover a, .user-menu.active .user-name:after, .user-menu:hover .user-name:after, .user-menu.active .user-name, .user-menu:hover .user-name, .main-search-input-item.location a:hover, .chosen-container .chosen-results li.highlighted, .input-with-icon.location a i:hover, .sort-by .chosen-container-single .chosen-single div:after, .sort-by .chosen-container-single .chosen-default, .panel-dropdown a:after, .post-content a.read-more, .post-meta li a:hover, .widget-text h5 a:hover, .about-author a, a.button.border.white:hover, .icon-box-2 i, a.button.border, .style-2 .ui-accordion .ui-accordion-header:hover, .style-2 .trigger a:hover, .plan.featured .listing-badges .featured, .list-4 li:before, .list-3 li:before, .list-2 li:before, .list-1 li:before, .info-box h4, .testimonial-carousel .slick-slide.slick-active .testimonial:before, .sign-in-form .tabs-nav li a:hover, .sign-in-form .tabs-nav li.active a, .lost_password:hover a, #top-bar .social-icons li a:hover i, .listing-share .social-icons li a:hover i, .agent .social-icons li a:hover i, #footer .social-icons li a:hover i, .headline span i {
     color: #00336E;
@@ -135,12 +169,12 @@ h2.headline span {
     color: #666;
     font-weight: 300;
     display: block;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 
 .promt{
     font-size: 26px !important;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 .sidebar-textbox ul.contact-details li a {
     color: #00336E;
@@ -242,7 +276,7 @@ h2.headline span {
     color:#00336E;
 }
 .list-4 li, .list-3 li, .list-2 li, .list-1 li {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsuregular', sans-serif;
 }
 #navigation.style-1 ul a {
     line-height: 32px;
@@ -295,7 +329,7 @@ h2.headline span {
 }
 h1, h2, h3, h4, h5, h6 {
     color: #001D3E;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'rsubold', sans-serif;
 }
 
 .kim_service_index{
