@@ -162,6 +162,12 @@ a.button_1.border:hover {
     font-size: 17px;
     font-family: 'rsuregular', sans-serif;
 }
+#small-dialog .mfp-close, #sign-in-dialog, .mfp-close, .mfp-close:hover {
+    color: #333333;
+}
+table.basic-table th:first-child {
+    border-radius: 4px 0 0 4px;
+}
 </style>
 
 <style>
@@ -176,6 +182,10 @@ a.button_1.border:hover {
         .main-search-container {
             height: 300px;
         }
+        .plan:last-child {
+    margin-top: -85px;
+    border-radius: 0 4px 4px 0;
+}
     }
     .main-search-container:before {
     content: "";
@@ -208,7 +218,7 @@ a.button_1.border:hover {
 <!-- Container / Start -->
 
 
-<div class="container margin-top-75 padding-bottom-70">
+<div class="container margin-top-75 ">
 
 	<!-- Blockquote
 	================================================== -->
@@ -235,7 +245,7 @@ a.button_1.border:hover {
 							<li>Non-Featured</li>
 							<li>Limited Support</li>
 						</ul>
-						<a class="button_1 border" href="#">ใช้งานแพ็กเกจนี้</a>
+						<a class="button_1 border popup-with-zoom-anim" href="#sign-in-dialog">ใช้งานแพ็กเกจนี้</a>
 					</div>
 
 				</div>
@@ -256,7 +266,7 @@ a.button_1.border:hover {
 							<li>Featured In Search Results</li>
 							<li>24/7 Support</li>
 						</ul>
-						<a class="button_2" href="#">ใช้งานแพ็กเกจนี้</a>
+						<a class="button_2 popup-with-zoom-anim" href="#sign-in-dialog">ใช้งานแพ็กเกจนี้</a>
 					</div>
 				</div>
 
@@ -276,7 +286,7 @@ a.button_1.border:hover {
 							<li>Featured In Search Results</li>
 							<li>24/7 Support</li>
 						</ul>
-						<a class="button_1 border" href="#">ใช้งานแพ็กเกจนี้</a>
+						<a class="button_1 border popup-with-zoom-anim" href="#sign-in-dialog">ใช้งานแพ็กเกจนี้</a>
 					</div>
 				</div>
 
@@ -286,36 +296,41 @@ a.button_1.border:hover {
                 <h3 class="headline centered " >
                     สิทธิประโยชน์ของผู้ใช้งานพร้อมรับ PRO
                 </h3>
-                <div class="">
+                <div class="table-responsive">
                     <table class="table table-bordered">
                         <thead>
                         <tr>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Username</th>
+                            <th></th>
+                            <th>LITE</th>
+                            <th>PRO</th>
                            
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>ใช้งานส่วนบุคคล</td>
+                            <td> <i class="text_blue_check fa fa-check-circle"></i> </td>
+                            <td> <i class="text_blue_check fa fa-check-circle"></i> </td>
+                        </tr>
+                        <tr>
                             <td>ใข้งานเพื่อการค้า</td>
-                            <td>@mdo</td>
+                            <td><i class="text_blue_check fa fa-check-circle"></i></td>
+                            <td><i class="text_blue_check fa fa-check-circle"></i></td>
                         </tr>
                         <tr>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <td>ค้นหารายการรับเงิน ตามหมวดหมู่ หรือวันที่ได้</td>
+                            <td><i class="text_blue_check fa fa-check-circle"></i></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
+                            <td>จำนวนบัญชีรับเงินเพื่อการค้า</td>
+                            <td>มากกว่า 1 บัญชี</td>
+                            <td>1 บัญชี</td>
                         </tr>
                         <tr>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
+                            <td>กราฟแสดงยอดรายรับ</td>
+                            <td>เลือกดูการแสดงผลแบบเดือน และปีได้</td>
+                            <td>เฉพาะ 7 วันล่าสุด</td>
                         </tr>
                         
                         </tbody>
@@ -336,10 +351,79 @@ a.button_1.border:hover {
 
     
     
+<style>
 
+    .item_package{
+        font-size: 18px !important;
+    font-weight: 600;
+    }
+    .pay_my_order{
+        position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0 0 0 18px;
+    height: 51px;
+    line-height: 50px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0px rgb(0 0 0 / 8%);
+    background-color: #fff;
+    color: #888;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 500;
+    border-radius: 4px;
+    }
+    .logo_payy1{
+        height: 25px;
+    }
+    @media screen and (max-width: 767px) {
+        .pay_my_order{
+            font-size:14px;
+        }
+        .logo_payy1{
+        height:18px;
+    }
+    #sign-in-dialog, #small-dialog{
+        padding: 0px 15px 15px 15px;
+    }
+    #sign-in-dialog, #small-dialog {
+    max-width: 100vw;
+}
+.small-dialog-header {
+    width: calc(100% + 30px);
+    left: -15px;
+    padding: 30px;
+}
+    }
+       
+</style>
 
     
+<!-- Sign In Popup -->
+<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
 
+    <div class="small-dialog-header">
+        <h3>ชำระเงิน</h3>
+    </div>
+
+    <div class="sign-in-form style-1">
+    <p>เลือกซื้อ</p>
+    
+    <div class="notification error closeable ">
+    <p class="item_package"><span>แพ็กเกจ PRO</span> <strong class="pull-right">฿100</strong></p>
+    </div>
+
+    <div class="pay_my_order">บัตรเครดิต/เดบิต 
+        <div style="float: right;">
+            <img src="img/Visa-logo.png" class="logo_payy1"  >
+            <img src="img/300px-Mastercard-logo.svg.png" class="logo_payy1"  >
+        </div>
+    </div>
+    </div>
+    
+
+</div>
+<!-- Sign In Popup / End -->
 
 
     
