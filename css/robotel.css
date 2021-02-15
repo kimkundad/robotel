@@ -410,3 +410,27 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0 0 4px 4px;
     z-index: 11;
 }
+.plan-price .value strong{
+    position: relative;
+    font-size: 22px;
+    color:#F06157;
+    top: -10px;
+}
+.plan-price .value {
+
+    color:#F06157;
+  
+}
+.plan-price h3 {
+    margin: 0;
+    color: #001D3E;
+    font-weight: 400;
+    font-size: 22px;
+}
+.plan.featured .plan-price .value strong
+{
+    color: #fff;
+}
+.plan-features ul li {
+    font-size: 15px;
+}
