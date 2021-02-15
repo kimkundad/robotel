@@ -693,7 +693,7 @@ body #navigation ul ul {
 #navigation.style-1 ul li a { color: #444; cursor: pointer; }
 #navigation.style-1 ul li:hover a { color: #66676b; }
 
-#navigation.style-1 ul ul li a { color: #444 !important; }
+#navigation.style-1 ul ul li a { color: #444 ; }
 
 #navigation.style-1 ul ul li { opacity: 0.8; }
 #navigation.style-1 ul ul li:hover { opacity: 1; }
