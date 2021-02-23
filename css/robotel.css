@@ -63,6 +63,10 @@ button.button, input[type="button"], input[type="submit"], a.button.border, a.bu
 .rev_slider{
     font-family: 'rsuregular', sans-serif;
 }
+body, h1, h2, h3, h4, h5, h6, input[type="text"], input[type="password"], input[type="email"], textarea, select, input[type="button"], input[type="submit"], button, #tiptip_content, .map-box p, .map-box div, .numerical-rating .rating-counter, body .menu-responsive i.menu-trigger:after {
+    font-family: "rsuregular", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
 .post-content h3{
     font-family: 'rsubold';
 }
@@ -437,4 +441,197 @@ h1, h2, h3, h4, h5, h6 {
 .text_blue_check{
     color:#084BA8;
     font-size: 22px;
+}
+.text_blue{
+    color:#084BA8;
+}
+.pay-form .button {
+    padding: 6px 14px;
+    line-height: 18px;
+    height: auto;
+    min-width: 20px;
+    margin-left: 8px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.wrapper2{
+    background-color: #001D3E !important;
+}
+.header2{
+    background-color: #fff !important;
+}
+.icon_pigs{
+    max-height: 100px;
+}
+.add-review-box {
+    min-height: 200px;
+    border-radius: 35px;
+    background-color: #ffffff;
+    padding: 36px;
+    padding-bottom: 40px;
+    margin-bottom: 55px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.add-card-button{
+    position: relative;
+    font-weight: 600;
+    font-size: 14px;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+    display: inline-block;
+    opacity: 1;
+    visibility: visible;
+    padding: 5px 20px;
+    color: #666;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    min-width: 100px;
+    color:#084BA8;
+}
+.sp_text{
+    font-size: 16px;
+    padding-left: 5px;;
+}
+
+.pay_my_order{
+    font-size: 14px;
+    margin-bottom: 15px;
+    position: relative;
+display: block;
+overflow: hidden;
+padding: 0 0 0 18px;
+height: 51px;
+line-height: 50px;
+border: 1px solid #dbdbdb;
+box-shadow: 0 1px 3px 0px rgb(0 0 0 / 8%);
+background-color: #fff;
+color: #000;
+text-decoration: none;
+white-space: nowrap;
+font-weight: 500;
+border-radius: 4px;
+}
+.item_package{
+    font-size: 18px !important;
+font-weight: 600;
+}
+
+.logo_payy1{
+    height: 20px;
+}
+@media screen and (max-width: 767px) {
+    .pay_my_order{
+        font-size:14px;
+    }
+    .logo_payy1{
+    height:18px;
+}
+#sign-in-dialog, #small-dialog{
+    padding: 0px 15px 15px 15px;
+}
+#sign-in-dialog, #small-dialog {
+max-width: 100vw;
+}
+.small-dialog-header {
+width: calc(100% + 30px);
+left: -15px;
+padding: 30px;
+}
+}
+.card-credit-avatar{
+    max-width: 50px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -0px;
+    image-rendering: -webkit-optimize-contrast;
+}
+.card-credit-name {
+    font-size: 14px;
+    top:10px;
+    position: relative;
+    left: 55px;
+}
+.card-credit-name span{
+    font-size: 14px;
+    color:#666;
+}
+.card-credit-name2 {
+    font-size: 14px;
+    top:10px;
+    position: relative;
+    left: 5px;
+}
+.card-credit-name2 span{
+    font-size: 14px;
+    color:#666;
+}
+.card-credit-name2 h6 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.send_email{
+    top: -30px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+.exp_card{
+    top:-10px;
+    position: relative;
+}
+.pay-form2 .button {
+    margin-top: 18px;
+    padding: 8px 20px;
+    line-height: 25px;
+    height: auto;
+    min-width: 40px;
+    margin-left: 8px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.button-confirmation-btn{
+    background-color: #084BA8;
+    top: 0;
+    padding: 9px 20px;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin-right: 6px;
+    overflow: hidden;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    min-width: 110px;
+}
+.button-confirmation-btn:hover{
+    color: #fff;
+    background-color: #00336E;
+}
+.w-80-p{
+    width: 80%;
+}
+.black_text{
+    color: #333333
+}
+.btn-back-kim{
+    margin: 20px 0px 0px 0px !important;
+    width: 100% !important;
+    text-align: center;
+}
+.my_select{
+    padding-top: 15px;
 }
