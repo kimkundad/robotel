@@ -19,7 +19,7 @@
 <body>
 
 <!-- Wrapper -->
-<div id="wrapper">
+<div  id="wrapper">
 
 <!-- Header Container
 ================================================== -->
@@ -104,7 +104,7 @@
 
 
 <!-- Container / Start -->
-<section class="fullwidth  padding-top-120 margin-bottom-70" data-background-color="#f8f8f8">
+<section class="fullwidth  padding-top-120 margin-bottom-70" data-background-color="#ffffff">
 
 	<div class="container  margin-bottom-70" >
 
@@ -112,15 +112,17 @@
 
 
 		<!-- Contact Form -->
+		
 		<div class="col-md-6">
-			<img src="img/signup_content.png" class="img-responsive">
+			<img src="img/login/1614264627361.png" class="img-responsive" style="width:100%;">
 		</div>
 		<div class="col-md-6">
 
-            <section id="contact " class="login-g">
-				<br>
-				<h4 class="headline margin-bottom-10">เข้าสู่ระบบ</h4>
-
+            <section id="contact " class="login-new login-g">
+			
+				<h3 class="headline centered  margin-top-40">
+                    เข้าสู่ระบบ
+                </h3>
 				<div id="contact-message"></div> 
 
                 <div class="sign-in-form style-1">
@@ -128,30 +130,38 @@
                     <p class="form-row form-row-wide">
                         <label for="username">
                             <i class="im im-icon-Male"></i>
-                            <input type="text" class="input-text" name="email" placeholder="Email Address" />
+                            <input type="text" class="input-text" placeholder="ชื่อบัญชีผู้ใช้งาน" />
                         </label>
                     </p>
 
-                    <p class="form-row form-row-wide">
+                    <p class="form-row form-row-wide margin-bottom-30">
                         <label for="password">
                             <i class="im im-icon-Lock-2"></i>
-                            <input class="input-text" type="password" name="password" placeholder="Password" />
+                            <input class="input-text" type="password" placeholder="Password" />
                         </label>
-                        <span class="lost_password">
-                            <a href="" >ลืมพาสเวิร์ด</a>
-                        </span>
+                        
                     </p>
-
-                    <div class="form-row">
+					<div class="margin-bottom-30">
+                    <div class="row ">
+                        <div class="col-md-6 col-sm-8 col-xs-8">
+							<div class="checkboxes ">
+								<input type="checkbox" name="remember" id="remember-me" >
+								<label for="remember-me">จดจำฉันไว้ในระบบ</label>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-4 col-xs-4">
+							<span class="lost_password pull-right">
+								<a href="" >ลืมรหัสผ่าน</a>
+							</span>
+						</div>
                         
-                        <div class="checkboxes margin-top-10">
-                            <input type="checkbox" name="remember" id="remember-me" >
-                            <label for="remember-me">จดจำฉันไว้ในระบบ</label>
-                        </div>
-                        
+					</div>
                     </div>
-                   
-                        <input type="submit" style=" margin-top: 15px !important;" class="button border margin-top-5" name="login" value="เข้าสู่ระบบ" />
+					
+						<div >
+							<input type="submit" style=" width:100%; margin-top: 15px !important;" class="button border margin-top-5 btn-block" name="login" value="เข้าสู่ระบบ" />
+						</div>
+                        
 					</form>
 					<br>
 					<div class="theme-login-social-separator">
@@ -183,7 +193,7 @@
 
 					<hr>
 					<div>
-						<p>หากยังไม่มีบัญชี? &nbsp;
+						<p class="text-center">หากยังไม่มีบัญชี? &nbsp;
 							<a class="regis" href="register.html">สมัครใช้งาน</a>
 						  </p>
 					</div>
@@ -193,6 +203,7 @@
             </section>
             
         </div>
+		
     </div>
 
 </div>
