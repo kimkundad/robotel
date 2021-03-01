@@ -1,0 +1,22 @@
+http://165.22.246.134/index.html  หน้าแรก
+http://165.22.246.134/about.html เกี่ยวกับเรา
+http://165.22.246.134/customer_display.html  หน้าโมบายแอฟ
+http://165.22.246.134/qr_payment_terminal.html  หน้า QR Payment Terminal
+http://165.22.246.134/payment_geteway.html หน้า Payment Gateway
+http://165.22.246.134/contact.html หน้าติดต่อเรา
+http://165.22.246.134/login.html หน้าเข้าสู่ระบบ
+http://165.22.246.134/register.html หน้าสมัครสมาชิก
+http://165.22.246.134/regis_terms.html หน้าสมัครสมาชิก -> ข้อตกลงในการใช้งานระบบ
+http://165.22.246.134/regis_policy.html หน้าสมัครสมาชิก -> นโยบายความเป็นส่วนตัว
+http://165.22.246.134/create_data_user.html หน้าสมัครสมาชิก -> ข้อมูลผู้ใช้งาน
+http://165.22.246.134/create_biller_id_wait.html หน้ารอการตรวจสอบ Biller id
+http://165.22.246.134/create_biller_id.html  หน้าสมัคร Biller id
+http://165.22.246.134/profile.html หน้าโปรไฟล์
+http://165.22.246.134/biller_status.html หน้าสถานะ Biller ID
+http://165.22.246.134/package.html หน้าซื้อแพ็คเกจ
+http://165.22.246.134/pay_step1.html หน้าชำระเงิน สเตป 1
+http://165.22.246.134/pay_step2.html  หน้าชำระเงิน สเตป 2
+http://165.22.246.134/add_tex.html หน้าเพิ่ม ออกใบกำกับภาษี
+http://165.22.246.134/pay_success.html หน้าชำระเงินสำเร็จ
+http://165.22.246.134/qr_banking.html หน้า QR banking
+
